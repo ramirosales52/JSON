@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A!important;
+}
+
+.container{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    max-width: 1000px;
+}
+
+.slick-center{
+    transition: all .2s ease-in-out;
+    transform: scale(1)!important;
+    opacity: 1!important;
+}
+
+.slick-slide{
+    transition: all .2s ease-in-out;
+    transform: scale(0.9);
+    opacity: .4;
+}
